@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => {
   const {t} = useTranslation();
-  const {line1, line2} = t("description", {channel: "RoadsideCoder"});
+  const {line1, line2} = t("description", {channel: "Ankita Arya"});
 
   return (
     <div className="container">
@@ -15,7 +15,7 @@ const App = () => {
           // i18nKey={"description.line1"}
           i18nKey={line1}
           values={{
-            channel: "RoadsideCoder",
+            channel: "Ankita Arya",
           }}
           components={{1: <b />}}
         ></Trans>
